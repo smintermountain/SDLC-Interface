@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <logo/>
+        <menu display_value="SDLC Interface">1d3773e84f108300af76d0af0310c7e7</menu>
+        <name>SDLC Interface</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_inthe_sdlc_inter</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_inthe_sdlc_inter</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>agkannan</sys_created_by>
+        <sys_created_on>2017-07-28 19:46:34</sys_created_on>
+        <sys_id>d537b7a84f108300af76d0af0310c737</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>agkannan</sys_updated_by>
+        <sys_updated_on>2017-07-28 19:46:34</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_inthe_sdlc_inter.user" name="x_inthe_sdlc_inter.user">553773e84f108300af76d0af0310c7e8</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+</record_update>
