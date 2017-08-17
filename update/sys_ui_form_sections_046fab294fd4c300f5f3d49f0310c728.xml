@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="046fab294fd4c300f5f3d49f0310c728" sys_domain="global" table="x_inthe_sdlc_inter_open_releases" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-07-31 21:46:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>986fab294fd4c300f5f3d49f0310c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_sdlc_inter_open_releases" name="x_inthe_sdlc_inter_open_releases" sys_domain="global" view="Default view">046fab294fd4c300f5f3d49f0310c728</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_sdlc_inter_open_releases" sys_domain="global" view="Default view">486fab294fd4c300f5f3d49f0310c727</sys_ui_section>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-07-31 21:46:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_inthe_sdlc_inter_open_releases</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-07-31 21:46:17</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>046fab294fd4c300f5f3d49f0310c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inthe_sdlc_inter_open_releases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SDLC Interface" source="x_inthe_sdlc_inter">d537b7a84f108300af76d0af0310c737</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SDLC Interface">d537b7a84f108300af76d0af0310c737</sys_scope>
+            <sys_update_name>sys_ui_form_sections_046fab294fd4c300f5f3d49f0310c728</sys_update_name>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-07-31 21:46:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

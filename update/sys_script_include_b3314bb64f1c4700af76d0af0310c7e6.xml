@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_inthe_sdlc_inter.sprintGetFilter</api_name>
+        <client_callable>true</client_callable>
+        <description>Script used in SDLC app to filter records for Sprint field.</description>
+        <name>sprintGetFilter</name>
+        <script><![CDATA[function sprintGetFilter(){
+   var sysid = [];
+   var rel = current.release;
+
+   var sprintRecord = new GlideRecord('x_inthe_sdlc_inter_open_sprints');
+   sprintRecord.addQuery('release',rel);
+   sprintRecord.query();
+   var query = "sys_idIN";  
+	while(sprintRecord.next()){		
+		sysid.push(sprintRecord.getValue('sys_id'));
+		query += sprintRecord.sys_id + ",";
+	}
+   return query;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>agkannan</sys_created_by>
+        <sys_created_on>2017-08-04 15:39:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b3314bb64f1c4700af76d0af0310c7e6</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>sprintGetFilter</sys_name>
+        <sys_package display_value="SDLC Interface" source="x_inthe_sdlc_inter">d537b7a84f108300af76d0af0310c737</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Interface">d537b7a84f108300af76d0af0310c737</sys_scope>
+        <sys_update_name>sys_script_include_b3314bb64f1c4700af76d0af0310c7e6</sys_update_name>
+        <sys_updated_by>agkannan</sys_updated_by>
+        <sys_updated_on>2017-08-04 17:49:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

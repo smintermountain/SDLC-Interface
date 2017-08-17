@@ -3,29 +3,31 @@
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="SDLC Interface">ba37b3e84f108300af76d0af0310c72f</application>
-        <filter/>
-        <name>Stories</name>
-        <order>400</order>
+        <filter table="x_inthe_sdlc_inter_open_epics">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>Open Epics</name>
+        <order>750</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_inthe_sdlc_inter.user</roles>
+        <roles/>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>agkannan</sys_created_by>
-        <sys_created_on>2017-07-28 19:46:41</sys_created_on>
+        <sys_created_on>2017-08-01 21:41:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0337b3e84f108300af76d0af0310c730</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Stories</sys_name>
+        <sys_id>fed7b4024fd00700af76d0af0310c7a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Epics</sys_name>
         <sys_package display_value="SDLC Interface" source="x_inthe_sdlc_inter">d537b7a84f108300af76d0af0310c737</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SDLC Interface">d537b7a84f108300af76d0af0310c737</sys_scope>
-        <sys_update_name>sys_ui_module_0337b3e84f108300af76d0af0310c730</sys_update_name>
+        <sys_update_name>sys_ui_module_fed7b4024fd00700af76d0af0310c7a6</sys_update_name>
         <sys_updated_by>agkannan</sys_updated_by>
-        <sys_updated_on>2017-07-31 21:50:59</sys_updated_on>
-        <table>x_inthe_sdlc_inter_story</table>
+        <sys_updated_on>2017-08-01 21:41:30</sys_updated_on>
+        <table>x_inthe_sdlc_inter_open_epics</table>
         <uncancelable>false</uncancelable>
         <view_name/>
     </sys_ui_module>

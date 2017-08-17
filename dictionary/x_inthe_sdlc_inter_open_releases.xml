@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Open Releases" max_length="40" name="x_inthe_sdlc_inter_open_releases" sizeclass="2" type="collection">
+        <element label="Default Team" max_length="40" name="default_team" type="string"/>
+        <element label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
+        <element label="Planned Start Date" max_length="40" name="planned_start_date" type="glide_date_time"/>
+    </element>
+</database>

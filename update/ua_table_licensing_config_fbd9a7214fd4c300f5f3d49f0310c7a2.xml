@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>true</is_fulfillment>
+        <name>x_inthe_sdlc_inter_open_releases</name>
+        <owner_condition table="x_inthe_sdlc_inter_open_releases">opened_by=javascript:gs.getUserID()^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>agkannan</sys_created_by>
+        <sys_created_on>2017-07-31 21:22:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fbd9a7214fd4c300f5f3d49f0310c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_inthe_sdlc_inter_open_releases</sys_name>
+        <sys_package display_value="SDLC Interface" source="x_inthe_sdlc_inter">d537b7a84f108300af76d0af0310c737</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Interface">d537b7a84f108300af76d0af0310c737</sys_scope>
+        <sys_update_name>ua_table_licensing_config_fbd9a7214fd4c300f5f3d49f0310c7a2</sys_update_name>
+        <sys_updated_by>agkannan</sys_updated_by>
+        <sys_updated_on>2017-07-31 21:22:14</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

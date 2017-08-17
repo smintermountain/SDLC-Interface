@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="platform" table="x_inthe_sdlc_inter_story" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Additional Values</label>
+            <language>en</language>
+            <name>x_inthe_sdlc_inter_story</name>
+            <sequence/>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-08-04 19:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52c37b724f9c4700af76d0af0310c79e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-08-04 19:18:26</sys_updated_on>
+            <u_task/>
+            <value>additional_values</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Edifecs</label>
+            <language>en</language>
+            <name>x_inthe_sdlc_inter_story</name>
+            <sequence/>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-08-04 19:17:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d937b724f9c4700af76d0af0310c79c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-08-04 19:17:49</sys_updated_on>
+            <u_task/>
+            <value>edifecs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>eGate</label>
+            <language>en</language>
+            <name>x_inthe_sdlc_inter_story</name>
+            <sequence/>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-08-04 19:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5423b7724f9c4700af76d0af0310c7be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-08-04 19:17:01</sys_updated_on>
+            <u_task/>
+            <value>egate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ensemble</label>
+            <language>en</language>
+            <name>x_inthe_sdlc_inter_story</name>
+            <sequence/>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-08-04 19:17:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb37b724f9c4700af76d0af0310c79d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-08-04 19:17:59</sys_updated_on>
+            <u_task/>
+            <value>ensemble</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>platform</element>
+            <name>x_inthe_sdlc_inter_story</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>agkannan</sys_created_by>
+            <sys_created_on>2017-08-04 19:17:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e893bf324f9c4700af76d0af0310c7e3</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>platform</sys_name>
+            <sys_package display_value="SDLC Interface" source="x_inthe_sdlc_inter">d537b7a84f108300af76d0af0310c737</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SDLC Interface">d537b7a84f108300af76d0af0310c737</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_sdlc_inter_story_platform</sys_update_name>
+            <sys_updated_by>agkannan</sys_updated_by>
+            <sys_updated_on>2017-08-04 19:18:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

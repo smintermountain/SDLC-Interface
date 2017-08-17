@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Open Epics" max_length="40" name="x_inthe_sdlc_inter_open_epics" sizeclass="1" type="collection">
+        <element label="Request Number" max_length="40" name="request_number" type="string"/>
+    </element>
+</database>

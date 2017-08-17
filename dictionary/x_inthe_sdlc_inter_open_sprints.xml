@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Open Sprints" max_length="40" name="x_inthe_sdlc_inter_open_sprints" sizeclass="5" type="collection">
+        <element label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
+        <element label="Planned Start Date" max_length="40" name="planned_start_date" type="glide_date_time"/>
+        <element label="Release" max_length="32" name="release" reference="x_inthe_sdlc_inter_open_releases" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Team" max_length="40" name="team" type="string"/>
+        <index name="index">
+            <element name="release"/>
+        </index>
+    </element>
+</database>

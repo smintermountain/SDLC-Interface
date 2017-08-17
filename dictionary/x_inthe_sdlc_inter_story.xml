@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Story" max_length="40" name="x_inthe_sdlc_inter_story" type="collection"/>
+    <element audit="true" extends="task" label="Open Stories" max_length="40" name="x_inthe_sdlc_inter_story" sizeclass="2" type="collection">
+        <element label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element label="Block Reason" max_length="4000" name="block_reason" type="string"/>
+        <element choice="1" label="Classification" max_length="50" name="classification" type="string">
+            <choice>
+                <element label="Bug Fix" value="bug_fix"/>
+                <element label="Enhancement" value="enhancement"/>
+                <element label="New" value="new"/>
+                <element label="Research" value="research"/>
+            </choice>
+        </element>
+        <element label="Epic" max_length="40" name="epic" reference="x_inthe_sdlc_inter_open_epics" type="reference"/>
+        <element label="Platform" max_length="40" name="platform" type="string"/>
+        <element label="Product" max_length="40" name="product" type="string"/>
+        <element label="Release" max_length="40" name="release" reference="x_inthe_sdlc_inter_open_releases" type="reference"/>
+        <element label="Request Number" max_length="40" name="request_number" type="string"/>
+        <element label="Solution" max_length="2000" name="solution" type="string"/>
+        <element label="Sprint" max_length="40" name="sprint" reference="x_inthe_sdlc_inter_open_sprints" reference_qual="javascript:sprintGetFilter();" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="3" label="Stage" max_length="5" name="stage" type="string">
+            <choice>
+                <element label="Code Development" value="code_development"/>
+                <element label="Deployment Prep" value="deploment_prep"/>
+                <element label="Design" value="design"/>
+                <element label="Development Testing" value="development_testing"/>
+                <element label="On Hold" value="on_hold"/>
+            </choice>
+        </element>
+        <element label="Steps To Reproduce" max_length="4000" name="steps_to_reproduce" type="string"/>
+        <element choice="1" label="Work Type" max_length="40" name="work_type" type="string">
+            <choice>
+                <element label="Lights-On" value="lights_on"/>
+                <element label="Project" value="project"/>
+                <element label="Run" value="run"/>
+            </choice>
+        </element>
+    </element>
 </database>
